@@ -152,7 +152,7 @@ export default function Homepage(){
                             description: anime.description,
                             genres:[...anime.genres],
                             image: anime.coverImage.large,
-                            title: anime.title.english,
+                            title: anime.title.english ? anime.title.english : anime.title.romaji,
                             status: category 
                         }
                     ]
@@ -230,7 +230,7 @@ export default function Homepage(){
                 </MainFeature>
 
 
-                <AnimeTitle color={openDoor ? '#000': 'transparent'}>{randomAnime.length == 0 ? '' : randomAnime.title.english}</AnimeTitle>
+                <AnimeTitle color={openDoor ? '#000': 'transparent'}>{randomAnime.length == 0 ? '' : randomAnime.title.english ? randomAnime.title.english : randomAnime.title.romaji}</AnimeTitle>
                 <span style={{marginTop: '50px'}}>Anime Score: {score}</span>
                 <Slider
                     aria-label="Score"
