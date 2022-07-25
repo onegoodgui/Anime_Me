@@ -6,6 +6,8 @@
 </p>
 <br>
 For a hand-on experience, here´s the link to the deployed version: https://anime-me.vercel.app/
+<br>
+For the repo containing the back-end of the application, you can find it <a href="https://github.com/onegoodgui/Anime_Me_API">here</a>
 <h1> About </h1>
 
 <p> This app is meant to solve the sometimes daunting task to find the right anime to watch! With it, you can:</p>
