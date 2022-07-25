@@ -21,7 +21,13 @@ For a hand-on experience, here´s the link to the deployed version: https://anim
 <h1>Technologies</h1>
 <p>The following tools and frameworks were used in the construction of the project:</p>
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-100000?style=for-the-badge&logo=Axios&logoColor=white&labelColor=05ACFF&color=00A2FF)
+<div style="display: flex;">
+  <!-- NodeJS --><img src=https://img.shields.io/badge/NodeJS-339933?style=for-the-badge&logo=Node.JS&logoColor=white>
+  <!-- Javascript --><img src=https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black>
+  <!-- TypeScript --><img src=https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white>
+  <!-- React --><img src=https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black>
+  <!-- PostgreSQL --><img src=https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white>
+  <!-- Prisma --><img src=https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=Prisma&logoColor=white>
+  <!-- Jest --><img src=https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=Jest&logoColor=white>
+  <!-- Docker --><img src=https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white>
+</div>
