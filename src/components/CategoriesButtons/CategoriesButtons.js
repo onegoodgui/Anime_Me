@@ -1,4 +1,4 @@
-import { Bottom, Button, ButtonsContainer, Top } from "./style.js";
+import { Bottom, Button, ButtonsContainer, Top } from "./style";
 
 export function CategoriesButtons() {
   return (

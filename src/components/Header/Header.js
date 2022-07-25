@@ -1,8 +1,9 @@
-import Logo from "../Logo/Logo.js";
-import { HeaderContainer } from "./style/style.js";
-import { useLocation } from "react-router-dom";
+import Logo from "../Logo/Logo";
+import { HeaderContainer } from "./style/style";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Header() {
+  const navigate = useNavigate();
   const { pathname } = useLocation();
 
   return (

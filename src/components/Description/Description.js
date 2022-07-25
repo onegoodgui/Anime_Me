@@ -1,4 +1,5 @@
-import { DescriptionContainer, DescriptionScroll } from "./style.js";
+import { DescriptionContainer, DescriptionScroll } from "./style";
+import Scroll from "../../images/Scroll.svg";
 import alternateScroll from "../../images/alternateScroll.svg";
 
 export function Description({ children, visibility }) {

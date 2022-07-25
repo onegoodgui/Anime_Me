@@ -1,4 +1,4 @@
-import { ListDiv, ScrollContainer } from "./style/style.js";
+import { ListDiv, ScrollContainer } from "./style/style";
 import { forwardRef } from "react";
 
 export const List = forwardRef(({ children, title }, ref) => (

@@ -1,9 +1,9 @@
-import Loading from "../icons.js";
-import { Input, Content, Button, Form, Title, SignInLink } from "../style.js";
-import Logo from "../../../components/Logo/Logo.js";
+import Loading from "../icons";
+import { Input, Content, Button, Form, Title, SignInLink } from "../style";
+import Logo from "../../../components/Logo/Logo";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { api } from "../../../services/api.js";
+import { api } from "../../../services/api";
 
 export default function SignUp() {
   const [isLoading, setIsLoading] = useState(false);

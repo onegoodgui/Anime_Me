@@ -1,4 +1,4 @@
-import { ItemContainer } from "./style/style.js";
+import { ItemContainer } from "./style/style";
 import { Draggable } from "react-beautiful-dnd";
 
 export default function Item({ children, draggableId, index, image }) {

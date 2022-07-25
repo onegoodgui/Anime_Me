@@ -1,4 +1,4 @@
-import { List } from "../../components/List/List.js";
+import { List } from "../../components/List/List";
 import {
   DoorHide,
   HomepageStyle,
@@ -6,19 +6,19 @@ import {
   AnimeMeButton,
   AnimePoster,
   AnimeTitle,
-} from "./style/style.js";
-import Item from "../../components/List/Item/Item.js";
+} from "./style/style";
+import Item from "../../components/List/Item/Item";
 import japaneseDoor from "../../images/japaneseDoor.svg";
-import { Description } from "../../components/Description/Description.js";
+import { Description } from "../../components/Description/Description";
 import drumRoll from "../../audios/drum_roll.mp3";
 import { Button, ButtonGroup, Slider } from "@mui/material";
 import { DragDropContext } from "react-beautiful-dnd";
 import { Droppable } from "react-beautiful-dnd";
 import { v4 as uuid } from "uuid";
 import { useEffect, useState } from "react";
-import { api } from "../../services/api.js";
-import { JapaneseDoor } from "../../components/JapaneseDoor/style.js";
-import useAuth from "../../hooks/useAuth.js";
+import { api } from "../../services/api";
+import { JapaneseDoor } from "../../components/JapaneseDoor/style";
+import useAuth from "../../hooks/useAuth";
 
 export default function Homepage() {
   const [columns, setColumns] = useState({
