@@ -4,7 +4,8 @@
  <p align='center'>
   <img src='anime-me.gif' style='  display:block; margin: 0 auto;'>
 </p>
-
+<br>
+For a hand-on experience, here´s the link to the deployed version: https://anime-me.vercel.app/
 <h1> About </h1>
 
 <p> This app is meant to solve the sometimes daunting task to find the right anime to watch! With it, you can:</p>
